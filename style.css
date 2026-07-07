@@ -69,3 +69,51 @@ button:hover{
     background:#00b8d4;
     transform:scale(1.05);
 }
+.about{
+    padding:100px 10%;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#00d4ff;
+    margin-bottom:20px;
+}
+
+.about p{
+    color:#ddd;
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.card{
+    width:280px;
+    background:rgba(255,255,255,0.08);
+    padding:30px;
+    border-radius:15px;
+    transition:.4s;
+    backdrop-filter:blur(10px);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #00d4ff;
+}
+
+.card h3{
+    color:#00d4ff;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:white;
+}
