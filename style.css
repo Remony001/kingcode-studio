@@ -136,3 +136,48 @@ button:hover{
     font-size:18px;
     line-height:1.8;
 }
+section {
+    padding: 80px 10%;
+}
+
+.about,
+.services,
+.skills,
+.portfolio,
+.contact {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about h2,
+.services h2,
+.skills h2,
+.portfolio h2,
+.contact h2 {
+    color: #00d9ff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p,
+.services p,
+.skills p,
+.portfolio p,
+.contact p {
+    color: #ddd;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.service-card {
+    background: #1b1b1b;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00d9ff;
+}
