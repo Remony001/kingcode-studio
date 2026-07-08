@@ -1,150 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KingCode Studio</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KingCode Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
 <body>
 
 <header>
+    <h1>KingCode Studio</h1>
 
-<h1>KingCode Studio</h1>
-
-<nav>
-
-<a href="#home">Home</a>
-
-<a href="#about">About</a>
-
-<a href="#services">Services</a>
-
-<a href="#skills">Skills</a>
-
-<a href="#portfolio">Portfolio</a>
-
-<a href="#contact">Contact</a>
-
-</nav>
-
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
-
 
 <section class="hero" id="home">
 
-<h2>Build Your Dream Website</h2>
+<h2>Hello, I'm Kingsley 👋</h2>
 
-<p>
-Professional Web Developer • HTML • CSS • JavaScript
-</p>
+<p id="typing"></p>
 
-<button id="hireBtn">Hire Me</button>
+<button onclick="contactMe()">Hire Me</button>
 
 </section>
-    <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-        Hi, I'm Kingsley, a passionate web developer from Nigeria.
-        I build modern, responsive websites using HTML, CSS and JavaScript.
-        My goal is to help businesses and individuals create beautiful websites.
-    </p>
-</section>
 
-<section id="about">
+<section id="about" class="about">
 
 <h2>About Me</h2>
 
 <p>
-
-Welcome to KingCode Studio.
-
-I design beautiful, responsive and modern websites for businesses and personal brands.
-
+I am a passionate Web Developer from Nigeria who creates beautiful,
+responsive websites using HTML, CSS and JavaScript.
+My goal is to help businesses grow online with modern web solutions.
 </p>
 
 </section>
 
+<section id="services" class="services">
 
-<section id="services">
+<h2>My Services</h2>
 
-<h2>Services</h2>
-
-<div class="service-box">
+<div class="cards">
 
 <div class="card">
+<i class="fa-solid fa-laptop-code"></i>
 <h3>Website Design</h3>
 <p>Modern responsive websites.</p>
 </div>
 
 <div class="card">
-<h3>JavaScript Apps</h3>
-<p>Interactive web applications.</p>
+<i class="fa-solid fa-code"></i>
+<h3>Web Applications</h3>
+<p>Interactive JavaScript projects.</p>
 </div>
 
 <div class="card">
-<h3>Portfolio Websites</h3>
-<p>Professional online portfolios.</p>
+<i class="fa-solid fa-mobile-screen"></i>
+<h3>Responsive Design</h3>
+<p>Perfect on phones and laptops.</p>
 </div>
 
 </div>
 
 </section>
-
 
 <section id="skills" class="skills">
-    <h2>My Skills</h2>
 
-    <div class="skill">
-        <p>HTML</p>
-        <div class="bar"><span style="width:95%"></span></div>
-    </div>
+<h2>My Skills</h2>
 
-    <div class="skill">
-        <p>CSS</p>
-        <div class="bar"><span style="width:90%"></span></div>
-    </div>
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><span style="width:95%"></span></div>
+</div>
 
-    <div class="skill">
-        <p>JavaScript</p>
-        <div class="bar"><span style="width:80%"></span></div>
-    </div>
+<div class="skill">
+<p>CSS</p>
+<div class="bar"><span style="width:90%"></span></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><span style="width:80%"></span></div>
+</div>
+
 </section>
 
-
-<section id="portfolio">
+<section id="portfolio" class="portfolio">
 
 <h2>Portfolio</h2>
 
-<div class="gallery">
+<div class="cards">
 
-<div class="project">Project One</div>
+<div class="card">
+<h3>Business Website</h3>
+<p>Professional business website.</p>
+</div>
 
-<div class="project">Project Two</div>
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Modern personal portfolio.</p>
+</div>
 
-<div class="project">Project Three</div>
+<div class="card">
+<h3>JavaScript App</h3>
+<p>Interactive web application.</p>
+</div>
 
 </div>
 
 </section>
 
-
-<section id="contact">
+<section id="contact" class="contact">
 
 <h2>Contact Me</h2>
 
-<p>Email: your@email.com</p>
+<p>Email: onyekazichukwumakingsley@gmail.com</p>
 
-<p>WhatsApp: +234 xxx xxx xxxx</p>
-
-<button id="contactBtn">Let's Work Together</button>
+<p>WhatsApp: +2349031135866</p>
 
 </section>
-  
+
 <footer>
 
 <p>© 2026 KingCode Studio. All Rights Reserved.</p>
