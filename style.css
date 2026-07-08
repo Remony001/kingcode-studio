@@ -181,3 +181,51 @@ section {
     transform: translateY(-5px);
     box-shadow: 0 0 20px #00d9ff;
 }
+.about,
+.services,
+.skills,
+.portfolio,
+.contact {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.about h2,
+.services h2,
+.skills h2,
+.portfolio h2,
+.contact h2 {
+    font-size: 36px;
+    color: #00d4ff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services .card {
+    background: #1b1b1b;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.portfolio .project {
+    background: #1b1b1b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.contact p {
+    font-size: 18px;
+}
