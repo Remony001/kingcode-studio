@@ -247,3 +247,42 @@ section {
     background:#00d4ff;
     border-radius:20px;
 }
+section {
+    padding: 80px 10%;
+}
+
+.about,
+.services,
+.skills,
+.portfolio,
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 15px 0;
+}
+
+.portfolio {
+    display: grid;
+    gap: 20px;
+}
+
+.contact {
+    text-align: center;
+}
