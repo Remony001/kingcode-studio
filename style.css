@@ -292,3 +292,31 @@ section{
 }
 
 }
+#contact-form{
+    max-width:600px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#1b1b1b;
+    color:#fff;
+    font-size:16px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline:2px solid #00d4ff;
+}
+
+#status{
+    margin-top:20px;
+    text-align:center;
+    color:#00d4ff;
+}
