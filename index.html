@@ -1,143 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KingCode Studio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KingCode Studio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+
 </head>
+
 <body>
 
 <header>
-    <h1>KingCode Studio</h1>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<div class="logo">
+KingCode Studio
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#portfolio">Portfolio</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
 </header>
+
 
 <section class="hero" id="home">
 
-    <video autoplay muted loop playsinline class="bg-video">
-        <source src="https://cdn.coverr.co/videos/coverr-working-on-two-computers-5176/1080p.mp4" type="video/mp4">
-    </video>
+<video autoplay muted loop playsinline class="bg-video">
 
-    <div class="overlay"></div>
+<source src="https://assets.mixkit.co/videos/preview/mixkit-hacker-working-on-code-on-multiple-monitors-43558-large.mp4" type="video/mp4">
 
-    <div class="hero-content">
-        <h2>Hello, I'm Kingsley 👋</h2>
-        <p id="typing"></p>
-        <button onclick="contactMe()">Hire Me</button>
-    </div>
+</video>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Hello, I'm Kingsley 👋</h1>
+
+<h2 id="typing"></h2>
+
+<p>
+Professional Web Developer
+</p>
+
+<button onclick="contactMe()">
+
+Hire Me
+
+</button>
+
+</div>
 
 </section>
-<section id="about" class="about">
+
+
+<section id="about">
 
 <h2>About Me</h2>
 
 <p>
-I am a passionate Web Developer from Nigeria who creates beautiful,
-responsive websites using HTML, CSS and JavaScript.
-My goal is to help businesses grow online with modern web solutions.
+
+Welcome to KingCode Studio.
+
+I create beautiful websites using HTML, CSS and JavaScript.
+
+I help businesses build modern websites.
+
 </p>
 
 </section>
 
-<section id="services" class="services">
 
-<h2>My Services</h2>
+<section id="services">
+
+<h2>Services</h2>
 
 <div class="cards">
 
 <div class="card">
-<i class="fa-solid fa-laptop-code"></i>
-<h3>Website Design</h3>
-<p>Modern responsive websites.</p>
+
+<i class="fas fa-laptop-code"></i>
+
+<h3>Web Design</h3>
+
+<p>Professional responsive websites.</p>
+
 </div>
 
 <div class="card">
-<i class="fa-solid fa-code"></i>
-<h3>Web Applications</h3>
-<p>Interactive JavaScript projects.</p>
+
+<i class="fas fa-code"></i>
+
+<h3>JavaScript</h3>
+
+<p>Interactive websites and web apps.</p>
+
 </div>
 
 <div class="card">
-<i class="fa-solid fa-mobile-screen"></i>
-<h3>Responsive Design</h3>
-<p>Perfect on phones and laptops.</p>
+
+<i class="fas fa-mobile-alt"></i>
+
+<h3>Responsive</h3>
+
+<p>Perfect on laptops and phones.</p>
+
 </div>
 
 </div>
 
 </section>
 
-<section id="skills" class="skills">
 
-<h2>My Skills</h2>
+<section id="skills">
+
+<h2>Skills</h2>
 
 <div class="skill">
+
 <p>HTML</p>
-<div class="bar"><span style="width:95%"></span></div>
+
+<div class="bar">
+<div style="width:95%"></div>
+</div>
+
 </div>
 
 <div class="skill">
+
 <p>CSS</p>
-<div class="bar"><span style="width:90%"></span></div>
+
+<div class="bar">
+<div style="width:90%"></div>
+</div>
+
 </div>
 
 <div class="skill">
+
 <p>JavaScript</p>
-<div class="bar"><span style="width:80%"></span></div>
+
+<div class="bar">
+<div style="width:85%"></div>
+</div>
+
 </div>
 
 </section>
 
-<section id="portfolio" class="portfolio">
 
-<h2>My Projects</h2>
+<section id="portfolio">
+
+<h2>Portfolio</h2>
 
 <div class="cards">
 
 <div class="card">
-<img src="images/project1.jpg" alt="Business Website">
+
+<img src="https://picsum.photos/500/300?1">
+
 <h3>Business Website</h3>
-<p>Modern responsive company website.</p>
+
 </div>
 
 <div class="card">
-<img src="images/project2.jpg" alt="Portfolio Website">
+
+<img src="https://picsum.photos/500/300?2">
+
 <h3>Portfolio Website</h3>
-<p>Professional personal portfolio.</p>
+
 </div>
 
 <div class="card">
-<img src="images/project3.jpg" alt="JavaScript App">
-<h3>JavaScript App</h3>
-<p>Interactive JavaScript application.</p>
+
+<img src="https://picsum.photos/500/300?3">
+
+<h3>JavaScript Project</h3>
+
 </div>
 
 </div>
 
 </section>
-<section id="contact" class="contact">
+
+
+<section id="contact">
 
 <h2>Contact Me</h2>
 
-<p>Email: onyekazichukwumakingsley@gmail.com</p>
+<p>Email:
+onyekazichukwumakingsley@gmail.com</p>
 
-<p>WhatsApp: +2349031135866</p>
+<p>WhatsApp:
++2349031135866</p>
+
+<button onclick="contactMe()">
+
+Let's Work Together
+
+</button>
 
 </section>
 
+
+<a href="https://wa.me/2349031135866" class="whatsapp">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+
 <footer>
 
-<p>© 2026 KingCode Studio. All Rights Reserved.</p>
+© 2026 KingCode Studio
 
 </footer>
 
