@@ -3,46 +3,32 @@ const words = [
     "HTML • CSS • JavaScript",
     "Building Modern Websites"
 ];
+emailjs.init({
+    publicKey: "YOUR_PUBLIC_KEY"
+});
 
-let word = 0;
-let letter = 0;
-let deleting = false;
+const form = document.getElementById("contact-form");
 
-const typing = document.getElementById("typing");
+form.addEventListener("submit", function(e){
 
-function typeEffect(){
+    e.preventDefault();
 
-    const current = words[word];
+    emailjs.sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        this
+    ).then(function(){
 
-    if(!deleting){
-        typing.textContent = current.substring(0, letter++);
-    }else{
-        typing.textContent = current.substring(0, letter--);
-    }
+        document.getElementById("status").textContent =
+        "✅ Message sent successfully!";
 
-    let speed = deleting ? 50 : 100;
+        form.reset();
 
-    if(!deleting && letter === current.length + 1){
-        deleting = true;
-        speed = 1500;
-    }
+    }, function(){
 
-    if(deleting && letter === 0){
-        deleting = false;
-        word = (word + 1) % words.length;
-    }
+        document.getElementById("status").textContent =
+        "❌ Failed to send message.";
 
-    setTimeout(typeEffect, speed);
-}
+    });
 
-typeEffect();
-
-function contactMe(){
-    alert(
-`👋 Thanks for visiting KingCode Studio!
-
-Email: onyekazichukwumakingsley@gmail.com
-
-WhatsApp: +2349031135866`
-    );
-}
+});
