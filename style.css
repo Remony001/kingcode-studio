@@ -191,3 +191,104 @@ h2{
     margin:15px 0;
     font-size:18px;
 }
+
+.whatsapp{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    text-decoration:none;
+    box-shadow:0 0 20px rgba(37,211,102,.5);
+    transition:.3s;
+    z-index:1000;
+}
+
+.whatsapp:hover{
+    transform:scale(1.15);
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111827;
+    color:#ccc;
+}
+
+@media (max-width:992px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+nav a{
+    margin:10px;
+}
+
+.hero-content h1{
+    font-size:45px;
+}
+
+.hero-content h2{
+    font-size:24px;
+}
+
+}
+
+@media (max-width:768px){
+
+.hero-content h1{
+    font-size:34px;
+}
+
+.hero-content h2{
+    font-size:20px;
+}
+
+.hero-content p{
+    font-size:17px;
+}
+
+button{
+    width:220px;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+section{
+    padding:70px 20px;
+}
+
+}
+
+@media (max-width:480px){
+
+.logo{
+    font-size:24px;
+}
+
+.hero-content h1{
+    font-size:28px;
+}
+
+.hero-content p{
+    font-size:15px;
+}
+
+}
